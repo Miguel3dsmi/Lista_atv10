@@ -33,5 +33,5 @@ for i in range (len(quente)):
 print("A lista de temperaturas: ")
 for i in range (len(temperaturas)):
     print(f"[{temperaturas[i]:.2f}] ", end="")
-print(f"\nTemperatura média: {media:.2f}\nDias acima da média: {quente}\nQuantidade de dias acima da da média:{contador}")
+print(f"\nTemperatura média: {media:.2f}ºC\nDias acima da média: {quente}\nQuantidade de dias acima da da média:{contador}")
 
