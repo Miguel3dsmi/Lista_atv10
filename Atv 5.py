@@ -7,7 +7,7 @@ imprime_matriz(matriz). Ela não deverá retornar nada, no entanto, deverá impr
 informada ao ser chamada. No programa principal, declare uma matriz estática 3x3, imprima
 a matriz chamando a função “imprime_matriz(matriz)”, e teste a função buscando
 “buscar_em_matriz(matriz, alvo)” um valor existente e um inexistente.'''
-import biblioteca
+import biblioteca_matriz
 
 def visualizar_matriz(matriz):
     print(f"Matriz: {matriz}")
@@ -25,7 +25,7 @@ def buscar_matriz(matriz, alvo):
     if situacao == False:
         print("Alvo não encontrado")
 
-matriz = biblioteca.matriz_quadrada(10)
+matriz = biblioteca_matriz.matriz_quadrada(10)
 alvo = int(input("Informe qual número você está buscando dentro da matriz: "))
 buscar_matriz(matriz, alvo)
 visualizar_matriz(matriz)
